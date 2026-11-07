@@ -1,0 +1,34 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strcmp.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mquaibl <mquaibl@learner.42.tech>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/07/22 11:08:19 by mquaibl           #+#    #+#             */
+/*   Updated: 2026/07/23 14:07:14 by mquaibl          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+int	ft_strcmp(char *s1, char *s2)
+{
+	int	i;
+
+	i = 0;
+	while (s1[i] && s2[i] && s1[i] == s2[i])
+		i++;
+	return ((unsigned char)s1[i] - (unsigned char)s2[i]);
+}
+
+/*#include <stdio.h>
+
+int	main(void)
+{
+	char *s1 = "canan";
+	char *s2 = "can";
+
+	printf("%d", ft_strcmp(s1, s2));
+
+return (0);
+
+}*/

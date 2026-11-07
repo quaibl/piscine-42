@@ -1,5 +1,7 @@
 # 42 Piscine — Mohammed Quaibl
 
+> Selected C and Shell exercises from the 42 Paris Piscine, organized by module with concise English guides.
+
 [English](#english) · [Français](#francais) · [العربية](#arabic)
 
 <a id="english"></a>
